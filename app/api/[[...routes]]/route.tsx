@@ -95,7 +95,7 @@ app.frame('/mint', async (c) => {
     imageAspectRatio: '1:1',
     intents: [
       // Button component indicating the NFT is already minted
-      <Button value="Minted">Already Minted</Button>,
+      <Button value="Minted">Go Back</Button>,
     ],
   });
 });
